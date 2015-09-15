@@ -3,6 +3,13 @@
 //设置消息投，消除乱码
 header("content-type:text/html;charset=utf-8");
 
+
+//定义css，js，img常量
+define("SITE_URL", "http://www.1116.com:11010/");
+define("CSS_URL", SITE_URL."shop/public/css/");//定义css
+define("IMG_URL", SITE_URL."shop/public/img/");//定义img
+define("JS_URL", SITE_URL."shop/public/js/");//定义js
+
 //
 /**
  * 调整模式
