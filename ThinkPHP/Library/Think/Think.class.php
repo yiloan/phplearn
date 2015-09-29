@@ -29,10 +29,10 @@ class Think {
     static public function start() {
       // 注册AUTOLOAD方法
       spl_autoload_register('Think\Think::autoload');      
-      // 设定错误和异常处理
-      register_shutdown_function('Think\Think::fatalError');
-      set_error_handler('Think\Think::appError');
-      set_exception_handler('Think\Think::appException');
+      // 设定错误和异常处理,注释掉以下三行，显示的是错误信息是传统的错误信息
+      //register_shutdown_function('Think\Think::fatalError');
+      //set_error_handler('Think\Think::appError');
+      //set_exception_handler('Think\Think::appException');
 
       // 初始化文件存储方式
       Storage::connect(STORAGE_TYPE);

@@ -6,10 +6,14 @@ header("content-type:text/html;charset=utf-8");
 
 //定义css，js，img常量
 define("SITE_URL", "http://www.1116.com:11010/");
-define("CSS_URL", SITE_URL."shop/public/css/");//定义css
-define("IMG_URL", SITE_URL."shop/public/img/");//定义img
-define("JS_URL", SITE_URL."shop/public/js/");//定义js
+define("CSS_URL", SITE_URL."shop/public/Home/css/");//定义css
+define("IMG_URL", SITE_URL."shop/public/Home/img/");//定义img
+define("JS_URL", SITE_URL."shop/public/Home/js/");//定义js
 
+define("ADMIN_SITE_URL", "http://www.1116.com:11010/");
+define("ADMIN_CSS_URL", SITE_URL."shop/public/Admin/css/");//定义css
+define("ADMIN_IMG_URL", SITE_URL."shop/public/Admin/img/");//定义img
+define("ADMIN_JS_URL", SITE_URL."shop/public/Admin/js/");//定义js
 //
 /**
  * 调整模式
