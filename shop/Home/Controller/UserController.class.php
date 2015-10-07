@@ -15,6 +15,10 @@ class UserController extends Controller {
             $this->display();
 
     }
+    function number(){
+        //模仿从数据库获得数据
+        return "目前网站注册会员200万";
+    }
  
 
 }

@@ -9,5 +9,5 @@ return array(
     //让显示日志追踪信息
     'SHOW_PAGE_TRACE' =>true, 
     //URL地址大小写不敏感设置     
-    'URL_CASE_INSENSITIVE'  =>  true,   // 默认false 表示URL区分大小写 true则表示不区分大小写
+    'URL_CASE_INSENSITIVE'  =>  false,   // 默认false 表示URL区分大小写 true则表示不区分大小写
 );

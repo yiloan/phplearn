@@ -107,8 +107,8 @@
                             <td align=middle width=30><img height=9 
                                                            src="<?php echo (ADMIN_IMG_URL); ?>menu_icon.gif" width=9></td>
                             <td><a class=menuchild 
-                                   href="#" 
-                                   target=main>产品展示</a></td></tr>
+                                   href="/shop/index.php?s=/Admin/Goods/showlist" 
+                                   target="right">产品展示</a></td></tr>
                         <tr height=20>
                             <td align=middle width=30><img height=9 
                                                            src="<?php echo (ADMIN_IMG_URL); ?>menu_icon.gif" width=9></td>
