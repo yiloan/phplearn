@@ -10,4 +10,19 @@ return array(
     'SHOW_PAGE_TRACE' =>true, 
     //URL地址大小写不敏感设置     
     'URL_CASE_INSENSITIVE'  =>  false,   // 默认false 表示URL区分大小写 true则表示不区分大小写
+    
+     /* 数据库链接设置*/
+    'DB_TYPE'               =>  'mysql',     // 数据库类型
+    'DB_HOST'               =>  'localhost', // 服务器地址
+    'DB_NAME'               =>  'shop',          // 数据库名
+    'DB_USER'               =>  'root',      // 用户名
+    'DB_PWD'                =>  '123456',          // 密码
+    'DB_PORT'               =>  '3306',        // 端口
+    'DB_PREFIX'             =>  'sw_',    // 数据库表前缀
+    //以下字段没有其作用，
+    //1.如果是调试模式就不起作用
+    //2.false也不起作用
+    'DB_FIELDS_CACHE'       =>  true,        // 启用字段缓存
+    'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
+
 );

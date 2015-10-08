@@ -3,6 +3,13 @@
 //设置消息投，消除乱码
 header("content-type:text/html;charset=utf-8");
 
+//制作一个输出调试函数
+function show_bug($msg){
+     echo "<pre style='color:red'>";
+     var_dump($msg);
+     echo "</pre>";
+}
+
 
 //定义css，js，img常量
 define("SITE_URL", "http://www.1116.com:11010/");

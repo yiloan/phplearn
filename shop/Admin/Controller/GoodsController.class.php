@@ -5,6 +5,13 @@ use Think\Controller;
 class GoodsController extends Controller{
     //商品列表展示
     function showlist(){
+        //使用数据模型Model
+        //实例化model对象
+        $goods=new \Model\GoodsModel(); //3.1.3   3.2
+        show_bug($goods);
+        //$qq=new \Model\QqModel();
+        //show_bug($qq);
+        
         $this -> display();
     }
     //添加商品
